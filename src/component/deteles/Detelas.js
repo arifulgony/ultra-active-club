@@ -12,12 +12,12 @@ const Detelas = ({data,settime,time}) => {
             {
                 data && data.map((item,index)=>{
                     return(
-                        <div key={index} className="dox">
+                        <div key={index} className="cart">
                             <img src={item.img} alt="" />
                             <h2>{item.name}</h2>
                             <p>{item.dec}</p>
-                            <h4>For Age :{item.age}</h4>
-                            <h4>Time required :{item.time}s</h4>
+                            <span>For Age :{item.age}</span><br/>
+                            <span>Time required :{item.time}s</span>
                             <button onClick={()=>submit(item.time)}>add to list</button>
                         </div>
                     )

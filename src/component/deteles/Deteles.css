@@ -4,13 +4,37 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.dox{
-    max-width: 400px;
+.cart{
+    max-width: 300px;
     background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.dox img{
+.cart img{
     height: 100%;
     width: 100%;
+    border-radius: 5%;
     object-fit: contain;
+}
+.cart h2{
+    color: #0A0A0A;
+}
+.cart p{
+    color: #a4a2a2;
+}
+.cart span{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cart button{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #5D5FEF;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
 }
