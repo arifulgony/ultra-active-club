@@ -13,12 +13,14 @@ const SideCart = ({time}) => {
     }
 
     return (
-        <div className='sidemain'>
-            <div>
-
+        <div className='site-cart'>
+            <div className='myself'>
+                <h1>Ariful Islam</h1>
             </div>
-            <div>
-
+            <div className='details'>
+                <div><samp className='weight'>54</samp><samp>kg</samp> <p>Weight</p></div>
+                <div><samp className='weight'>54</samp><samp>kg</samp> <p>Weight</p></div>
+                <div><samp className='weight'>54</samp><samp>kg</samp> <p>Weight</p></div>
             </div>
             <div>
                 <h2>Add A Break</h2>
