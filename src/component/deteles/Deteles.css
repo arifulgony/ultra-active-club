@@ -1,0 +1,16 @@
+.mane{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dox{
+    max-width: 400px;
+    background-color: #fff;
+}
+
+.dox img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

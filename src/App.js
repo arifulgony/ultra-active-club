@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import {data} from './component/data'
+import Detelas from "./component/deteles/Detelas";
+import { useState } from 'react';
+import SideCart from './component/Side_cart/SideCart';
+import { Toaster } from 'react-hot-toast';
+
+
 
 function App() {
+    const [time,settime] = useState(0)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='web-main'>
+      <Toaster />
+      <div className='main-left'>
+      <Detelas settime={settime}  time={time} data = {data}/>
+      </div>
+      <div className='main_right'>
+        <SideCart  time={time}/>
+      </div>
     </div>
   );
 }
+
 
 export default App;
