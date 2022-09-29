@@ -24,7 +24,7 @@ const SideCart = ({time}) => {
             </div>
             <div>
                 <h2>Add A Break</h2>
-                <div>
+                <div className='time'>
                     <button onClick={()=>setends(10)}>10s</button>
                     <button onClick={()=>setends(20)}>20s</button>
                     <button onClick={()=>setends(30)}>30s</button>
