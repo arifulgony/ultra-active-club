@@ -12,21 +12,24 @@ import Fooder from './component/fooder/Fooder';
 function App() {
     const [time,settime] = useState(0)
   return (
-   <div className="main-container">
-   
-     <div className='cart-container'>
+   <div className="full-display">
+    <div className="main-container">
+    <div className='cart-container'>
      <Header></Header>
       <Toaster></Toaster>
       <div className='main-left'>
       <Detelas settime={settime}  time={time} data = {data}></Detelas>
       </div>
-      <Fooder></Fooder>
-     
     </div>
     <div className='main_right'>
       <SideCart time={time}></SideCart>
       </div>
+    </div>
+      <Fooder></Fooder>
+      <br/>
+      <br/>
    </div>
+
   );
 }
 

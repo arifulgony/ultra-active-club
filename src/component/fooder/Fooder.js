@@ -23,7 +23,7 @@ const Fooder = () => {
                 </div>
                 <div className="question-area">
                  <h2>How to load data without usieffect api?</h2>
-                  <p> <strong>Ans:</strong> I have run into a small problem while developing a dialog component that asynchronously fetches some data from an API endpoint every time it is opened, which in my case was generating a fresh code.The issue that I spent some time thinking about was the number of re-renders that were occurring, due to the way it was implemented. Here is a minimal reproducible example of the type of thing I was aiming to achieve: </p>
+                  <p> <strong>Ans:</strong> I have run into a small problem while developing a dialog component that asynchronously fetches some data from an API endpoint every time it is opened, which in my case was generating a fresh code.The issue that I spent some time thinking about was the number of re-renders that were occurring, due to the way it was implemented. Here is a minimal reproducible example of the type of thing I was aiming to achieve </p>
                 </div>
             </div>
             

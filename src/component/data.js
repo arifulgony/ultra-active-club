@@ -16,7 +16,7 @@ export const data =[
 
     {
       name:"Football",
-      dec:"The home of all things football. Watch. Stream. Free · World Ranking · FIFA President ...",
+      dec:"The home of all things football. Watch. Stream. Free · World Ranking  ...",
       age:"18-22",
       time:20,
       img:imag2,
@@ -24,14 +24,14 @@ export const data =[
 
     {
       name:"Hadudu",
-      dec:"Hadudu see kabadi; folk games. ... Categories: See kabadi · Folk games. This page was last  ...",
+      dec:"Hadudu see kabadi; folk games.Categories: See kabadi · Folk games.   ...",
       age:"20-22",
       time:30,
       img:img3,
     },
     {
       name:"Basketball",
-      dec:"Play Basketball Stars, Basketball Legends 2022, Basket Swooshes and many more for free on Poki...",
+      dec:"Play Basketball Stars, Basketball Legends 2022, Basket Swooshes and many...",
       age:"22-25",
       time:40,
       img:img4,
@@ -45,7 +45,7 @@ export const data =[
     },
     {
       name:"Reading",
-      dec:"Benefits of Reading Books: How It Can Positively Affect Your Life · Reading strengthens your brain....",
+      dec:"Benefits of Reading Books: How It Can Positively Affect Your Life · Reading....",
       age:"20-25",
       time:60,
       img:img6,
