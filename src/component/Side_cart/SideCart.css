@@ -31,3 +31,26 @@
     border-radius: 50%;
     background-color: #5D5FEF;
 }
+.time-added{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F4FA;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.text-color{
+    color: #9DACC1;
+}
+
+.activity-button{
+    margin-top: 80px;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5D5FEF;
+}

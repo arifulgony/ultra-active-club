@@ -35,17 +35,17 @@ const SideCart = ({time}) => {
 
             <div>
                 <h2>Exercise Details</h2>
-                <div>
+                <div className='time-added'>
                     <h2>Exercise time</h2>
-                    <h2>{time} seconds</h2>
+                    <h2 className='text-color'>{time} seconds</h2>
                 </div>
-                <div>
+                <div className='time-added'>
                     <h2>Break time</h2>
-                    <h2>{end} seconds</h2>
+                    <h2 className='text-color'>{end} seconds</h2>
                 </div>
             </div>
             <div>
-                <button onClick={click}>Activity Completed</button>
+                <button className='activity-button' onClick={click}>Activity Completed</button>
             </div>
         </div>
     );
