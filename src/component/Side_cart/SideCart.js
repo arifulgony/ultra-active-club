@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import toast from 'react-hot-toast';
-import "./SideCart.css"
+import "./SideCart.css";
+import img from '..//../img/ariful.jpg';
+
+
 
 const SideCart = ({time}) => {
     const [end,setend] = useState(localStorage.getItem("cartdata") ? JSON.parse(localStorage.getItem("cartdata")) :0,)
@@ -15,7 +18,7 @@ const SideCart = ({time}) => {
     return (
         <div className='site-cart'>
             <div className='myself'>
-                <h1>Ariful Islam</h1>
+            <img src={img} alt="" /><h1>Ariful Islam</h1>
             </div>
             <div className='details'>
                 <div><samp className='weight'>54</samp><samp>kg</samp> <p>Weight</p></div>
