@@ -5,6 +5,7 @@ import { useState } from 'react';
 import SideCart from './component/Side_cart/SideCart';
 import { Toaster } from 'react-hot-toast';
 import Header from './component/header/Header';
+import Fooder from './component/fooder/Fooder';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <div className='main-left'>
       <Detelas settime={settime}  time={time} data = {data}></Detelas>
       </div>
+      <Fooder></Fooder>
      
     </div>
     <div className='main_right'>
