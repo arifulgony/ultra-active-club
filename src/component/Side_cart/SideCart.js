@@ -19,8 +19,8 @@ const SideCart = ({time}) => {
             </div>
             <div className='details'>
                 <div><samp className='weight'>54</samp><samp>kg</samp> <p>Weight</p></div>
-                <div><samp className='weight'>54</samp><samp>kg</samp> <p>Weight</p></div>
-                <div><samp className='weight'>54</samp><samp>kg</samp> <p>Weight</p></div>
+                <div><samp className='weight'>5.4</samp><p>Height</p></div>
+                <div><samp className='weight'>19</samp> <p>Age</p></div>
             </div>
             <div>
                 <h2>Add A Break</h2>
